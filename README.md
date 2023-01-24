@@ -29,7 +29,7 @@ Follow the [Symfony UX Vue.js official documentation](https://symfony.com/bundle
 ## Usage
 In any fluid template: Just register the Namespace and use the provided ViewHelper to render your component:
 
-    <html xmlns:ux="http://typo3.org/ns/DSKZPT/UX/Vue/ViewHelpers">
+    <html xmlns:ux="http://typo3.org/ns/SvenPetersen/UX/Vue/ViewHelpers">
         <div {ux:vueComponent(name:'MyComponent',props:"{'name':'John Doe'}")}></div>
     </html>
 
