@@ -2,12 +2,10 @@ TYPO3 Extension "typo3-ux-vue"
 =================================
 
 ## What does it do?
+Render Vue components directly in Fluid template
+
 This Extensions enables you to render Vue Components directly in Fluid templates.
-It acts as a bridge from the symfony/ux-vue package into TYPO3.
-
-**Summary of features**
-
-* Render Vue components directly in Fluid template
+It acts as an integration for symfony/ux-vue into TYPO3.
 
 ## Prerequsites
 To use this extension you have to use Webpack Encore for bundling for frontend assets.
