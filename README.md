@@ -1,4 +1,4 @@
-TYPO3 Extension "ux-vue-typo3"
+TYPO3 Extension "typo3-ux-vue"
 =================================
 
 ## What does it do?
