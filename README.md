@@ -16,7 +16,7 @@ Before you start, make sure you have [Symfony UX configured in your project](htt
 The recommended way to install the extension is by
 using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project
 root, just run:
-<pre>composer require dskzpt/ux-vue-typo3</pre>
+<pre>composer require svenpetersen/typo3-vue-ux</pre>
 
 ## Setup
 Follow the [Symfony UX Vue.js official documentation](https://symfony.com/bundles/ux-vue/current/index.html)
