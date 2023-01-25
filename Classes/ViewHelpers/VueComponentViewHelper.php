@@ -2,18 +2,17 @@
 
 declare(strict_types=1);
 
-namespace DSKZPT\UX\Vue\ViewHelpers;
+namespace SvenPetersen\UX\Vue\ViewHelpers;
 
-use DSKZPT\WebpackEncoreBridge\ViewHelpers\StimulusFluidViewHelper;
-use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
+use SvenPetersen\FluidStimulus\ViewHelpers\AbstractStimulusViewHelper;
 
-class VueComponentViewHelper extends AbstractViewHelper
+class VueComponentViewHelper extends AbstractStimulusViewHelper
 {
     protected $escapeOutput = false;
 
-    private StimulusFluidViewHelper $stimulusFluidViewHelper;
+    private AbstractStimulusViewHelper $stimulusFluidViewHelper;
 
-    public function __construct(StimulusFluidViewHelper $stimulusFluidViewHelper)
+    public function __construct(AbstractStimulusViewHelper $stimulusFluidViewHelper)
     {
         $this->stimulusFluidViewHelper = $stimulusFluidViewHelper;
     }
@@ -27,6 +26,7 @@ class VueComponentViewHelper extends AbstractViewHelper
     public function render(): string
     {
         $params = ['component' => $this->arguments['name']];
+
         if ($this->arguments['props']) {
             $params['props'] = $this->arguments['props'];
         }
