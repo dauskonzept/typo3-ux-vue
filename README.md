@@ -7,11 +7,6 @@ Render Vue components directly in Fluid template
 This Extensions enables you to render Vue Components directly in Fluid templates.
 It acts as an integration for symfony/ux-vue into TYPO3.
 
-## Prerequsites
-To use this extension you have to use Webpack Encore for bundling for frontend assets.
-
-Before you start, make sure you have [Symfony UX configured in your project](https://symfony.com/doc/current/frontend/ux.html).
-
 ## Installation
 The recommended way to install the extension is by
 using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project
