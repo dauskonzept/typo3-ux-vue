@@ -24,7 +24,7 @@ Additionally:
     # Add this line to your package.json dependencies:
     "@symfony/ux-vue": "file:vendor/symfony/ux-vue/assets"
 
-    # Install react
+    # Install Vue.js
     $ npm i vue
 
     # or
