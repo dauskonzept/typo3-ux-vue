@@ -1,24 +1,24 @@
 How to contribute
 =================
-Hey, great you want to contribute to ``ux-vue-typo3``.
+Hey, great you want to contribute to ``typo3-ux-vue``.
 
 Submitting feedback
 ===================
-Please report feedback, bugs and feature requests on [GitHub](https://github.com/dauskonzept/ux-vue-typo3/issues)
+Please report feedback, bugs and feature requests on [GitHub](https://github.com/svenpet90/typo3-ux-vue/issues)
 Note, that the GitHub issue tracker is not a support forum.
 
-I'm always willing to help user of ``ux-vue-typo3`` with potential problems, but please understand, that I will
+I'm always willing to help user of ``typo3-ux-vue3`` with potential problems, but please understand, that I will
 not fix templates, code or misconfigured TYPO3 websites in commercial projects for free. If you need
 commercial support, please contact me by email.
 
 Submitting new features
 =======================
-Not every feature is relevant for the bulk of ``ux-vue-typo3`` users, so please discuss new features in the
-issue tracker on [GitHub](https://github.com/dauskonzept/ux-vue-typo3/issues) before starting to code.
+Not every feature is relevant for the bulk of ``typo3-ux-vue`` users, so please discuss new features in the
+issue tracker on [GitHub](https://github.com/svenpet90/typo-ux-vue/issues) before starting to code.
 
 Submitting changes
 ==================
-* Create a fork of the ``ux-vue-typo3``  repository on GitHub
+* Create a fork of the ``typo3-ux-vue``  repository on GitHub
 * Create a new branch from the current main branch
 * Make your changes
 * Make sure your code complies with the coding standard
@@ -32,11 +32,11 @@ Submitting changes
 
 Coding Standards
 ================
-The ``ux-vue-typo3`` codebase follows [PSR-1](https://www.php-fig.org/psr/psr-1/),
+The ``typo3-ux-vue`` codebase follows [PSR-1](https://www.php-fig.org/psr/psr-1/),
 [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-12](https://www.php-fig.org/psr/psr-12/) standards for code formatting.
 
 Testing
 =======
-A wide range of the codebase of ``ux-vue-typo3`` is covered by unit- and functional tests. If you submit a pull
+A wide range of the codebase of ``typo3-ux-vue`` is covered by unit- and functional tests. If you submit a pull
 request without tests, this is ok, but please note, that it may take longer time to merge your pull requests in
 this case, since I may have to create the tests for your code.
