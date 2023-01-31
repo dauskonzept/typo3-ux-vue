@@ -1,7 +1,7 @@
 {
 	"name": "svenpetersen/typo3-ux-vue",
 	"type": "typo3-cms-extension",
-	"description": "TYPO3 extension to import youtube video/channels as EXT:news articles",
+	"description": "Easily render Vue.js components in Fluid Templates",
 	"homepage": "https://github.com/svenpet90",
 	"keywords": [
 		"TYPO3",
