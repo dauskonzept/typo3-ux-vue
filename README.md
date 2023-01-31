@@ -1,3 +1,10 @@
+[![Latest Stable Version](http://poser.pugx.org/svenpetersen/typo3-ux-vue/v)](https://packagist.org/packages/svenpetersen/typo3-ux-vue)
+[![Total Downloads](http://poser.pugx.org/svenpetersen/typo3-ux-vue/downloads)](https://packagist.org/packages/svenpetersen/typo3-ux-vue)
+[![Monthly Downloads](http://poser.pugx.org/svenpetersen/typo3-ux-vue/d/monthly)](https://packagist.org/packages/svenpetersen/typo3-ux-vue)
+[![Latest Unstable Version](http://poser.pugx.org/svenpetersen/typo3-ux-vue/v/unstable)](https://packagist.org/packages/svenpetersen/typo3-ux-vue)
+[![License](http://poser.pugx.org/svenpetersen/typo3-ux-vue/license)](https://packagist.org/packages/svenpetersen/typo3-ux-vue)
+[![PHP Version Require](http://poser.pugx.org/svenpetersen/typo3-ux-vue/require/php)](https://packagist.org/packages/svenpetersen/typo3-ux-vue)
+
 TYPO3 Extension "typo3-ux-vue"
 =================================
 
