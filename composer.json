@@ -20,7 +20,7 @@
 		}
 	],
 	"require": {
-		"svenpetersen/fluid-stimulus": "^0.1",
+		"ssch/typo3-encore": "^5.0.5",
 		"symfony/ux-vue": "^2.6"
 	},
 	"require-dev": {
