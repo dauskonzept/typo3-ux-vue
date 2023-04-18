@@ -4,18 +4,11 @@ declare(strict_types=1);
 
 namespace SvenPetersen\UX\Vue\ViewHelpers;
 
-use SvenPetersen\FluidStimulus\ViewHelpers\AbstractStimulusViewHelper;
+use Ssch\Typo3Encore\ViewHelpers\Stimulus\AbstractViewHelper;
 
-class VueComponentViewHelper extends AbstractStimulusViewHelper
+class VueComponentViewHelper extends AbstractViewHelper
 {
     protected $escapeOutput = false;
-
-    private AbstractStimulusViewHelper $stimulusFluidViewHelper;
-
-    public function __construct(AbstractStimulusViewHelper $stimulusFluidViewHelper)
-    {
-        $this->stimulusFluidViewHelper = $stimulusFluidViewHelper;
-    }
 
     public function initializeArguments(): void
     {
@@ -31,6 +24,6 @@ class VueComponentViewHelper extends AbstractStimulusViewHelper
             $params['props'] = $this->arguments['props'];
         }
 
-        return $this->stimulusFluidViewHelper->renderStimulusController('@symfony/ux-vue/vue', $params)->__toString();
+        return $this->renderStimulusController('@symfony/ux-vue/vue', $params)->__toString();
     }
 }
