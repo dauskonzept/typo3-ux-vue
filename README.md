@@ -31,6 +31,10 @@ Additionally:
     # Add this line to your package.json dependencies:
     "@symfony/ux-vue": "file:vendor/symfony/ux-vue/assets"
 
+    # Add these two lines to your app.js:
+    import {registerVueControllerComponents} from '@symfony/ux-vue';
+    registerVueControllerComponents(require.context('./vue/controllers', true, /\.vue$/));
+
     # Install Vue.js
     $ npm i vue
 
