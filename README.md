@@ -18,7 +18,7 @@ It acts as an integration for symfony/ux-vue into TYPO3.
 The recommended way to install the extension is by
 using [Composer](https://getcomposer.org/). In your Composer based TYPO3 project
 root, just run:
-<pre>composer require svenpetersen/typo3-ux-vue</pre>
+<pre>composer require dskzpt/typo3-ux-vue</pre>
 
 ## Setup
 Before you start, make sure you have [EXT:typo3_encore](https://github.com/sabbelasichon/typo3_encore).
@@ -60,7 +60,7 @@ Additionally:
 ## Usage
 In any fluid template: Just register the Namespace and use the provided ViewHelper to render your component:
 
-    <html xmlns:ux="http://typo3.org/ns/SvenPetersen/UX/Vue/ViewHelpers">
+    <html xmlns:ux="http://typo3.org/ns/DSKZPT/UX/Vue/ViewHelpers">
         <div {ux:vueComponent(name:'MyComponent',props:"{'name':'John Doe'}")}></div>
     </html>
 

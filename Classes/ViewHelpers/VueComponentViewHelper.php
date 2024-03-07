@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SvenPetersen\UX\Vue\ViewHelpers;
+namespace DSKZPT\UX\Vue\ViewHelpers;
 
 use Ssch\Typo3Encore\ViewHelpers\Stimulus\AbstractViewHelper;
 

@@ -4,7 +4,7 @@ Hey, great you want to contribute to ``typo3-ux-vue``.
 
 Submitting feedback
 ===================
-Please report feedback, bugs and feature requests on [GitHub](https://github.com/svenpet90/typo3-ux-vue/issues)
+Please report feedback, bugs and feature requests on [GitHub](https://github.com/dauskonzept/typo3-ux-vue/issues)
 Note, that the GitHub issue tracker is not a support forum.
 
 I'm always willing to help user of ``typo3-ux-vue3`` with potential problems, but please understand, that I will
@@ -14,7 +14,7 @@ commercial support, please contact me by email.
 Submitting new features
 =======================
 Not every feature is relevant for the bulk of ``typo3-ux-vue`` users, so please discuss new features in the
-issue tracker on [GitHub](https://github.com/svenpet90/typo-ux-vue/issues) before starting to code.
+issue tracker on [GitHub](https://github.com/dauskonzept/typo-ux-vue/issues) before starting to code.
 
 Submitting changes
 ==================

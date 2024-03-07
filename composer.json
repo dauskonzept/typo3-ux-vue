@@ -1,8 +1,8 @@
 {
-	"name": "svenpetersen/typo3-ux-vue",
+	"name": "dskzpt/typo3-ux-vue",
 	"type": "typo3-cms-extension",
 	"description": "Easily render Vue.js components in Fluid Templates",
-	"homepage": "https://github.com/svenpet90",
+	"homepage": "https://github.com/dauskonzept",
 	"keywords": [
 		"TYPO3",
 		"extension",
@@ -16,7 +16,7 @@
 	"authors": [
 		{
 			"name": "Sven Petersen",
-			"email": "sven_harders@gmx.de"
+			"email": "sp@dauskonzept.de"
 		}
 	],
 	"require": {
@@ -30,12 +30,9 @@
 		"phpstan/phpstan": "^1.4",
 		"typo3/coding-standards": "^0.6.1"
 	},
-	"suggest": {
-		"ssch/typo3-encore": "Integrates Webpack Encore into TYPO3"
-	},
 	"autoload": {
 		"psr-4": {
-			"SvenPetersen\\UX\\Vue\\": "Classes/"
+			"DSKZPT\\UX\\Vue\\": "Classes/"
 		}
 	},
 	"config": {
@@ -61,40 +58,15 @@
 	},
 	"scripts": {
 		"ci:composer:normalize": "@composer normalize --dry-run",
-		"ci:coverage": [
-			"@ci:coverage:functional"
-		],
-		"ci:coverage:functional": "phpunit -c Tests/Functional/phpunit.xml -d memory_limit=-1 --coverage-php=coverage/functional.cov Tests/Functional",
-		"ci:coverage:merge": "phpcov merge --clover=./coverage/clover.xml coverage/",
-		"ci:coverage:unit": "phpunit -c Tests/Unit/phpunit.xml -d memory_limit=-1 --coverage-php=coverage/unit.cov Tests/Unit",
 		"ci:php:cs-fixer": "php-cs-fixer fix -v --dry-run --using-cache no --diff",
 		"ci:php:lint": "find *.php Classes Configuration Tests -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l",
 		"ci:php:stan": "phpstan --no-progress",
 		"ci:test": [
 			"@ci:php:cs-fixer",
 			"@ci:php:stan",
-			"@ci:test:unit",
-			"@ci:test:functional"
-		],
-		"ci:test:functional": [
-			"phpunit -c Tests/Functional/phpunit.xml -d memory_limit=-1"
-		],
-		"ci:test:unit": [
-			"phpunit -c Tests/Unit/phpunit.xml -d memory_limit=-1"
 		],
 		"fix:php:cs-fixer": [
 			"php-cs-fixer fix -v --using-cache no"
-		],
-		"prepare-release": [
-			"rm .gitignore",
-			"rm -rf .Build",
-			"rm -rf .github",
-			"rm -rf Tests",
-			"rm -rf Resources",
-			"rm .editorconfig",
-			"rm .gitattributes",
-			"rm .php-cs-fixer.php",
-			"rm CONTRIBUTING.rst"
 		]
 	}
 }
